@@ -18,3 +18,8 @@ Fonctionnement
 ===========
 
 Le programme est codé en VB.NET sous le Framework .NET 2.0 (il fonctionne donc sous XP SP1/SP2/SP3 ou plus = 8.1). Il utilise le processus hl2.exe qui se lance en arrière plan avec un fake AppID ce qui émule le jeu souhaité sous Steam et augmente donc vos heures de jeux. Vous devez impérativement avoir le jeu dans votre bibliothèque Steam sans pour autant qu'il soit installé. 
+
+Copyright
+===========
+
+Le source code est disponible sous la licence CC (Creative Common) et donc libre de diffusion. Pensez à le créditer de mon nom si vous veniez à le distribuer (Nathan Agez Lecren) en simple remerciement. Merci
