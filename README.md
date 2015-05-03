@@ -1,7 +1,7 @@
 Steam-Idler
 ===========
 
-Ce programme vous permet de générer des heures de jeux sur les jeux présents dans votre bibliothèque sans qu'ils soient isntallé sur votre PC/MAC/Linux.
+Ce programme vous permet de générer des heures de jeux sur les jeux présents dans votre bibliothèque sans qu'ils soient isntallé sur votre PC.
 
 Utilisation
 ===========
@@ -11,13 +11,12 @@ Lancez steam et connectez-vous, lancez ensuite Steam-Idler et cliquez sur Start 
 Requièrement
 ===========
 
-Vous devez avoir Steam d'installer dans le répertoire par défaut et Counter-Strike: Source pour obtenir le processus hl2.exe
-Le Framework .NET doit être installé sur votre machine (2.0 minimum)
+Steam et le Framework .NET doivent être installé sur votre machine (2.0 minimum)
 
 Fonctionnement
 ===========
 
-Le programme est codé en VB.NET sous le Framework .NET 2.0 (il fonctionne donc sous XP SP1/SP2/SP3 ou plus = 8.1). Il utilise le processus hl2.exe qui se lance en arrière plan avec un fake AppID ce qui émule le jeu souhaité sous Steam et augmente donc vos heures de jeux. Vous devez impérativement avoir le jeu dans votre bibliothèque Steam sans pour autant qu'il soit installé. 
+Le programme est codé en VB.NET sous le Framework .NET 3.5 (il fonctionne donc sous XP SP1/SP2/SP3 ou plus = 8.1). Il utilise le processus hl2.exe qui se lance en arrière plan avec un fake AppID ce qui émule le jeu souhaité sous Steam et augmente donc vos heures de jeux. Vous devez impérativement avoir le jeu dans votre bibliothèque Steam sans pour autant qu'il soit installé. 
 
 Copyright
 ===========
