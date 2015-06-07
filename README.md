@@ -1,4 +1,4 @@
-### Node.js - node-steam
+### Node.js - node-steam [![Node.js](http://viewsame.com/img/nodejs-icon.png)](https://nodejs.org/)[![steam-ico](http://icons.iconarchive.com/icons/bokehlicia/captiva/48/steam-icon.png)](http://icons.iconarchive.com)
 
 node-steam est une alternative au SteamKit2. Il vous permet d'intéragir avec le réseau Steam sans avoir de client steam. 
 Souvent utilisé pour des tâches automatisés ou des bot. 
@@ -30,10 +30,24 @@ cd C:\User\User\node-modules\steam\
 node Idling.js
 ```
 
-### Module
+### Synthax requise en début de fichier
 Premièrement, `require` module.
 ```js
 var Steam = require('steam');
 ```
+`steam` est maintenant un espace de nom (implémenté comme objet) il contient la class SteamClient, la propriété `servers`, et une grande collection d'instances sont implémentés comme objet.
+
+Si l'on veut créer une instance de SteamClient, on appel la méthode `logON`
+```js
+var bot = new Steam.SteamClient();
+bot.logOn({
+  accountName: 'username',
+  password: 'password'
+});
+bot.on('loggedOn', function() { /* ... */});
+```
+
+
+
 
 
