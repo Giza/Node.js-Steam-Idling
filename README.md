@@ -1,24 +1,39 @@
-Steam-Idler
-===========
+### Node.js - node-steam
 
-Ce programme vous permet de générer des heures de jeux sur les jeux présents dans votre bibliothèque sans qu'ils soient isntallé sur votre PC.
+node-steam est une alternative au SteamKit2. Il vous permet d'intéragir avec le réseau Steam sans avoir de client steam. 
+Souvent utilisé pour des tâches automatisés ou des bot. 
 
-Utilisation
-===========
+### Requièrement
+Vous devez installer : 
+- [Node.js](https://nodejs.org/)
+- [node-steam](https://github.com/seishun/node-steam)
+- [Node.js-Steam-Idling](https://github.com/NastyZ98/Node.js-Steam-Idling)
 
-Lancez steam et connectez-vous, lancez ensuite Steam-Idler et cliquez sur Start Idler en spécifiant bien l'AppID du jeu pour lequel vous souhaitez booster vos heures de jeux. Laissez le en arrière plan le temps que vous souhaitez suivant le nombre d'heure de jeu que vous souhaitez. 
+### Installation
 
-Requièrement
-===========
+Pour pouvoir utiliser Node.js-Steam-Idling vous devez installer [Node.js](https://nodejs.org/).
+Ouvez "Node.js command prompt" et saisissez
+```
+npm install steam
+```
+Note: Le chemin d'accès sera le suivant:
+```
+node-modules/steam/
+```
+Installez "Idling.js" dans:
+```
+node-modules/steam/Idling.js
+```
+Créez un fichier batch
+```batch
+cd C:\User\User\node-modules\steam\
+node Idling.js
+```
 
-Steam et le Framework .NET doivent être installé sur votre machine (2.0 minimum)
+### Module
+Premièrement, `require` module.
+```js
+var Steam = require('steam');
+```
 
-Fonctionnement
-===========
 
-Le programme est codé en VB.NET sous le Framework .NET 3.5 (il fonctionne donc sous XP SP1/SP2/SP3 ou plus = 8.1). Il utilise le processus hl2.exe qui se lance en arrière plan avec un fake AppID ce qui émule le jeu souhaité sous Steam et augmente donc vos heures de jeux. Vous devez impérativement avoir le jeu dans votre bibliothèque Steam sans pour autant qu'il soit installé. 
-
-Copyright
-===========
-
-Le source code est disponible sous la licence CC (Creative Common) et donc libre de diffusion. Pensez à le créditer de mon nom si vous veniez à le distribuer (Nathan Agez Lecren) en simple remerciement. Merci
